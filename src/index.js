@@ -3,14 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Principal } from './component/Principal';
 
-
+import { Principal } from './paginaPrincipal/component/Principal';
+import { Tiendas } from './paginaTiendas/Tiendas';
+import { Comidas } from './paginaComida/component/Comidas';
+import { Hamburguesa3D } from './paginaHamburguesa3D/Hamburguesa3D';
+import { Contacto } from './paginaContacto/Contacto';
+import { Chat } from './paginaChat/Chat';
+import { Informacion } from './paginaInformacion/Informacion';
+import { PrimerPaso } from './paginaTicket1erPaso/1erPaso';
+import { SegundoPaso } from './paginaSegundoPaso/2ndoPaso';
+import { Menu } from './paginaMenu/Menu';
+import { Carrito } from './paginaCarrito/Carrito';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Principal />
+    <Carrito />
   </React.StrictMode>
 );
 
