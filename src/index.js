@@ -15,11 +15,13 @@ import { PrimerPaso } from './paginaTicket1erPaso/1erPaso';
 import { SegundoPaso } from './paginaSegundoPaso/2ndoPaso';
 import { Menu } from './paginaMenu/Menu';
 import { Carrito } from './paginaCarrito/Carrito';
+import { LoginUnido } from './paginaInicioSesion/component/LoginUnido';
+import { RegistroUnido } from './paginaRegistro/RegistroUnido';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Carrito />
+    <RegistroUnido />
 
   </React.StrictMode>
   
