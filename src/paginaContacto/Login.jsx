@@ -44,7 +44,7 @@ export const Login = ()=>{
 
     
     return(<>
-        <div id="Menu_login">
+        <div id="fondoPrincipal">
             <div id = "login">
                 <h3>Login</h3>
                 <input ref={refCorreo} id="email" placeholder="Email" type={"email"}/>
