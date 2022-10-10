@@ -1,0 +1,300 @@
+#fondoPrincipal {
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #f4f4f4;
+}
+
+#textoAclarador{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+width: 1000px;
+height: 40px;
+left: 176px;
+top: 106px;
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 37px;
+letter-spacing: 0.5em;
+color: #7B7B7B;
+}
+
+#cuentanos{
+    position: absolute;
+width: 755px;
+height: 90px;
+left: 0px;
+top: 130px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 92px;
+text-align: center;
+
+color: #000000;
+}
+#cuentanosD{
+    position: absolute;
+    width: 755px;
+    height: 90px;
+    left: 80px;
+    top: 200px;
+    
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 92px;
+    text-align: center;
+    
+    color: #000000;
+}
+#nombre{
+    position: absolute;
+    width:170px;
+    height: 65px;
+    left: 523px;
+    top: 300px;
+    
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;;
+
+}
+#nombreBarra{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 932px;
+    height: 61px;
+    left: 523px;
+    top: 385px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 39px;
+margin: 0;
+background: #FFFFFF;
+box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#tipoRestau{
+    position: absolute;
+    width: 435px;
+    height: 65px;
+    left: 523px;
+    top: 470px;
+    
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;;
+}
+#tipoBarra{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 932px;
+    height: 61px;
+    left: 523px;
+    top:555px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 39px;
+margin: 0;
+background: #FFFFFF;
+box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+}
+#numTel{
+    position: absolute;
+    width: 440px;
+    height: 65px;
+    left: 523px;
+    top:620px;
+    
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;;
+}
+
+#numeroBarra{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 932px;
+    height: 61px;
+    left: 523px;
+    top:705px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 39px;
+margin: 0;
+background: #FFFFFF;
+box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+}
+#botonFinalizar{
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 428px;
+    height: 78px;
+    left: 795px;
+    top: 870px;
+    background: #bdbdbd;
+    border-radius: 30px;
+    cursor: pointer;
+
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    line-height: 37px;
+    transition: filter 0.2s linear 0.1s;
+    text-align: center;
+}
+
+#botonFinalizar:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+#textoSobreNosotros{
+    position: absolute;
+width: 1355px;
+height: 90px;
+left: 330px;
+top: 600px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 92px;
+text-align: center;
+
+color: #000000;
+}
+
+#mision{
+    position: absolute;
+width: 159px;
+height: 90px;
+left: 930px;
+top: 700px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 69px;
+text-align: center;
+
+color: #565656;
+}
+
+#misionTexto{
+    position: absolute;
+width: 846px;
+height: 114px;
+left: 606px;
+top: 770px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 37px;
+text-align: center;
+
+color: #8C8C8C;
+}
+
+#vision{
+    position: absolute;
+    width: 159px;
+    height: 90px;
+    left: 930px;
+    top: 950px;
+    
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+    
+    color: #565656; 
+}
+
+#barrera{
+    position: absolute;
+    width: 1000px;
+    
+    left: 930px;
+    top: 1100px;
+    height: 112px;
+    background: #ffffff00;
+}
+#punto1ero {
+    left: 930px;
+    top: 800px;
+}
+
+#punto2ndo {
+    left: 1050px;
+    top: 800px;
+}
+.puntoNOseleccionado {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.puntoSeleccionado {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background: #FF8228;
+    box-shadow: inset 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+

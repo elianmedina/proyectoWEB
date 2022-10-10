@@ -1,0 +1,211 @@
+#fondoPrincipal {
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #F4F4F4;
+}
+
+#textoAclarador{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+width: 1000px;
+height: 40px;
+left: 176px;
+top: 106px;
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 37px;
+letter-spacing: 0.5em;
+color: #7B7B7B;
+}
+
+#espacio3D{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
+width: 1790px;
+height: 630px;
+left:130px;
+top: 220px;
+
+background: #cccccc;
+box-shadow: inset 0px 0px 61px 10px rgba(0, 0, 0, 0.25);
+}
+
+#comboboxRestaurante{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 160px;
+    height: 38px;
+    left: 170px;
+    top: 250px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    border-radius: 25px;
+    margin: 0;
+    text-align:center;
+}
+
+#separacionbotonhamburguesa3d{
+    
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+
+    height: 150px;
+    left: 0px;
+    top: 850px;
+
+   
+  
+    
+    background: #d9d9d9;
+    box-shadow: -5px 2px 9px rgba(0, 0, 0, 0.25);
+    
+}
+
+#botonhamburguesa3d{
+  
+    
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+        width: 700px;
+        height: 78px;
+        left: 720px;
+        top: 870px;
+        background: #FF8228;
+        border-radius: 30px;
+        border-color: #ffffff;
+        
+        cursor: pointer;
+        
+        transition: filter 0.2s linear 0.1s;
+        font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            color: #FFFFFF;
+            line-height: 37px;
+            text-align: center;
+        
+        
+}
+
+#botonhamburguesa3d:hover{ 
+   
+    background: #ffb987;
+    color: rgb(63, 63, 63);
+}
+
+#botonatrasespacio3D{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 262px;
+    height: 78px;
+    left: 1630px;
+    top: 130px;
+    background: #515151;
+    border-radius: 30px;
+    cursor: pointer;
+
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 37px;
+    transition: filter 0.2s linear 0.1s;
+    text-align: center;
+}
+#botonatrasespacio3D:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+#card1{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 94px;
+    height: 87px;
+    left: 155px;
+    top: 750px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+#card2{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 94px;
+    height: 87px;
+    left: 314px;
+    top: 750px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+#card3{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 94px;
+    height: 87px;
+    left: 473px;
+    top: 750px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+#card4{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 94px;
+    height: 87px;
+    left: 632px;
+    top: 750px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+#card5{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 94px;
+    height: 87px;
+    left: 791px;
+    top: 750px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+#card6{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 94px;
+    height: 87px;
+    left: 950px;
+    top: 750px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}

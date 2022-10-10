@@ -1,0 +1,333 @@
+#fondoPrincipal {
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #F4F4F4;
+}
+
+#textoAclarador{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+width: 265px;
+height: 40px;
+left: 176px;
+top: 106px;
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 37px;
+letter-spacing: 0.5em;
+color: #7B7B7B;
+}
+
+#barraFiltro{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
+width: 1748px;
+height: 80px;
+left: 152px;
+top: 167px;
+
+background: #E9E9E9;
+border-radius: 25px;
+}
+
+#textoOrdenarPor{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    width: 147px;
+    height: 40px;
+    left: 184px;
+    top: 170px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 37px;
+    
+    color: #2d2d2d;
+}
+
+#comboboxfiltro{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 134px;
+    height: 38px;
+    left: 343px;
+    top: 187px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 37px;
+    border-radius: 25px;
+    margin: 0;
+    text-align:left;
+}
+
+#imagenmap{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 57px;
+    height: 47px;
+    left: 1693px;
+    top: 190px;
+    
+    clip-path: inset(0 0 20% 0);
+    filter: invert(57%) sepia(57%) saturate(2531%) hue-rotate(342deg) brightness(108%) contrast(101%);
+    
+}
+
+#vermapa{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 121px;
+    height: 27px;
+    left: 1750px;
+    top: 184px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 27px;
+    filter: invert(57%) sepia(57%) saturate(2531%) hue-rotate(342deg) brightness(108%) contrast(101%);
+}
+
+
+
+#imagen1{
+    position: absolute;
+    width: 166px;
+    height: 100px;
+    left: 381px;
+    top: 300px;
+}
+
+#nombretienda1{
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    width: 147px;
+    height: 40px;
+    left: 385px;
+    top: 400px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #2d2d2d;
+}
+
+#textodescriptivo1{
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    width: 421px;
+    height: 290px;
+    left: 250px;
+    top: 450px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #8c8c8c;
+}
+
+#boton14{
+    
+position: absolute;
+width: 428px;
+height: 78px;
+left: 245px;
+top: 700px;
+background: #bdbdbd;
+border-radius: 30px;
+cursor: pointer;
+margin: 0;
+transition: filter 0.2s linear 0.1s;
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+}
+#boton14:hover{ 
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+#imagen2{
+    position: absolute;
+    width: 166px ;
+    height: 100px;
+    left: 981px;
+    top: 300px;
+}
+
+#nombretienda2{
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    width: 147px;
+    height: 40px;
+    left: 1040px;
+    top: 400px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #2d2d2d;
+}
+
+#textodescriptivo2{
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    width: 421px;
+    height: 290px;
+    left: 850px;
+    top: 450px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #8c8c8c;
+}
+
+#boton24{
+    
+position: absolute;
+width: 428px;
+height: 78px;
+left: 845px;
+top: 700px;
+background: #bdbdbd;
+border-radius: 30px;
+cursor: pointer;
+margin: 0;
+transition: filter 0.2s linear 0.1s;
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+}
+#boton24:hover{ 
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+
+#imagen3{
+    position: absolute;
+    width: 100px ;
+    height: 100px;
+    left: 1615px;
+    top: 300px;
+}
+
+#nombretienda3{
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    width: 147px;
+    height: 40px;
+    left: 1625px;
+    top: 400px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #2d2d2d;
+}
+
+#textodescriptivo3{
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    width: 421px;
+    height: 290px;
+    left: 1450px;
+    top: 450px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #8c8c8c;
+}
+
+#boton34{
+    
+position: absolute;
+width: 428px;
+height: 78px;
+left: 1445px;
+top: 700px;
+background: #bdbdbd;
+border-radius: 30px;
+cursor: pointer;
+margin: 0;
+transition: filter 0.2s linear 0.1s;
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+}
+#boton34:hover{ 
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+#resultados{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    width: 583px;
+    height: 30px;
+    left: 200px;
+    top: 900px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    
+    color: #2d2d2d;
+}
