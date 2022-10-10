@@ -3,6 +3,8 @@ import "./Login.css"
 import {createUserWithEmailAndPassword, onAuthStateChanged,
     signInWithEmailAndPassword, signOut} from "firebase/auth"
 import {auth} from "./config.js"
+import { useRef } from "react"
+import { async } from "@firebase/util"
 export const Login = ()=>{
     
     const [registerEmail, setRegisterEmail] = useState("")
@@ -10,6 +12,8 @@ export const Login = ()=>{
     const [loginEmail, setLoginEmail] = useState("")
     const [loginPassword, setLoginPassword] = useState("")
     const [user, setUser] = useState({})
+    const refCorreo = useRef(null);
+    const refPassword = useRef(null);
 
     onAuthStateChanged(auth, (currentUser) =>{
             setUser(currentUser);
@@ -17,7 +21,7 @@ export const Login = ()=>{
 
     const login = async() =>{
         try{
-            const user = await signInWithEmailAndPassword(auth, loginEmail, loginPassword);
+            const user = await signInWithEmailAndPassword(auth, refCorreo.current.value, refPassword.current.value);
             console.log(user)
         } catch(error){
             console.log(error.message);
@@ -40,31 +44,18 @@ export const Login = ()=>{
 
     
     return(<>
-        <div>
+        <div id="Menu_login">
             <div id = "login">
                 <h3>Login</h3>
-                <input id="email" placeholder="Email" type={"email"} onChange={(event) => {
-                    setLoginEmail(event.target.value);
-                }}/>
-                <input id = "password" placeholder="Password" onChange={(event) => {
-                    setLoginPassword(event.target.value);
-                }}/>
+                <input ref={refCorreo} id="email" placeholder="Email" type={"email"}/>
+                <input ref={refPassword} id = "password" placeholder="Password"/>
                 <button id = "iniciar"onClick={login}><span id ="textLogin">Login</span></button>
             </div>
+            
             <div>
-                <h3>Register</h3>
-                <input placeholder="Email" onChange={(event) => {
-                    setRegisterEmail(event.target.value);
-                }}/>
-                <input placeholder="Password" onChange={(event) => {
-                    setRegisterPassword(event.target.value);
-                }}/>
-                <button onClick={register}>Register</button>
-            </div>
-            <div>
-                <h2>Usuario actual</h2>
-                {user.email}
-                <button onClick={logOut}>Log Out</button>
+                {/* <h2>Usuario actual</h2> */}
+                {user?.email}
+                <button onClick={logOut}>Log Out</button> 
             </div>
             
         </div>
