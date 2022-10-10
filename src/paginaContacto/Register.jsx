@@ -35,7 +35,7 @@ export const Register = ()=>{
 
     
     return(<>
-        <div>
+        <div id="fondoPrincipal">
             <div id="register">
                 <h3>Register</h3>
                 <input placeholder="Email" id="email" ref={refCorreo}/>
