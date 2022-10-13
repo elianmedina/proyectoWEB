@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter,Link,Navigate,NavLink,Route,Routes } from 'react-router-dom'
+
 import { Principal } from './paginaPrincipal/component/Principal';
 import { Tiendas } from './paginaTiendas/Tiendas';
 import { Comidas } from './paginaComida/component/Comidas';
@@ -17,12 +17,16 @@ import { Menu } from './paginaMenu/Menu';
 import { Carrito } from './paginaCarrito/Carrito';
 import { LoginUnido } from './paginaInicioSesion/component/LoginUnido';
 import { RegistroUnido } from './paginaRegistro/RegistroUnido';
+import { Routes,Route,BrowserRouter} from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
+    <BrowserRouter>
     <RegistroUnido />
-
+    </BrowserRouter>
   </React.StrictMode>
   
 );
