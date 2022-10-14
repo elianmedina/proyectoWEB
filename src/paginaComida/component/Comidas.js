@@ -5,6 +5,7 @@ import imagenMapa from './img/map.svg'
 import imagenComida1 from './img/MCBURGERCHEESE.jpg'
 import imagenComida2 from './img/coca.jpg'
 import imagenComida3 from './img/FKCCOMBO.png'
+import { Link } from 'react-router-dom'
 
 export const Comidas = () => {
 
@@ -56,9 +57,12 @@ export const Comidas = () => {
                     <h3 id="precio3">$ 60.000 COP</h3>
                     <button id="boton3" name="button">ORDENAR</button>
                 </div>
-                <h3 id="resultadoscomida">Se encontraron {cantidad} resultados</h3>
+                <h3 id="resultadoscomidas">Se encontraron {cantidad} resultados</h3>
                 <div id="separacionbotonhamburguesa3d"></div>
+
+                <Link to='/Hamburguesa3D'>
                 <button id="botonhamburguesa3d" name="button">ARMA TU HAMBURGUESA EN 3D</button>
+                </Link>
             </div>
 
             <NavBarUp />

@@ -2,6 +2,7 @@ import './Chat.css'
 import { NavBar } from './NavBar'
 import { NavBarUp } from './NavBarUp'
 import imagenInfoChat1 from './img/mcdonald.png'
+import { Link } from 'react-router-dom'
 
 
 export const Chat = () => {
@@ -14,8 +15,9 @@ export const Chat = () => {
             <div id='fondoPrincipalCHAT'>
             <div id="relleno1"></div>
                 <h1 id='textoAclarador'>CHAT</h1>
+                <Link to='/Contacto'>
                 <button id="botonatrasCHAT" name="button">Atrás</button>
-
+                </Link>
                 
                 
                 

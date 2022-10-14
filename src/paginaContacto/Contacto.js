@@ -5,6 +5,7 @@ import imagenMapa from './img/map.svg'
 import imagenTienda1 from './img/mcdonald.png'
 import imagenTienda2 from './img/KFC-logo.png'
 import imagenTienda3 from './img/logo-frisby.png'
+import { Link } from 'react-router-dom'
 
 export const Contacto = () => {
 
@@ -32,19 +33,28 @@ export const Contacto = () => {
                     <img src={imagenTienda1} id='imagen1' />
                     <h1 id="nombretienda1">McDonald's</h1>
                     <h2 id="textodescriptivo1">Contáctese para obtener más información a cerca de los pedidos:</h2>
+                   
+                    <Link to='/Chat'>
                     <button id="boton14" name="button">CHAT EN LÍNEA</button>
+                    </Link>
+              
                 </div>
                 <div>
                     <img src={imagenTienda2} id='imagen2' />
                     <h1 id="nombretienda2">KFC</h1>
+                   
                     <h2 id="textodescriptivo2">Contáctese para obtener más información a cerca de los pedidos:</h2>
+                    <Link to='/Chat'>
                     <button id="boton24" name="button">CHAT EN LÍNEA</button>
+                    </Link>
                 </div>
                 <div>
                     <img src={imagenTienda3} id='imagen3' />
                     <h1 id="nombretienda3">Frisby</h1>
                     <h2 id="textodescriptivo3">Contáctese para obtener más información a cerca de los pedidos:</h2>
+                    <Link to='/Chat'>
                     <button id="boton34" name="button">CHAT EN LÍNEA</button>
+                    </Link>
                 </div>
                 <h3 id="resultados">Se encontraron {cantidad} resultados</h3>
             </div>

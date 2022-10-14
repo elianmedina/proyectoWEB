@@ -7,13 +7,14 @@ import imagenFood from './img/food.svg'
 import imagenAsesoria from './img/asesoria.svg'
 import imagenInfo from './img/info.svg'
 import { Hamburguesa3D } from './Hamburguesa3D'
+import { Link } from 'react-router-dom'
 
 
 export const NavBar = () => {
     //HOLA
 
 
-    
+
 
     return (
         <>
@@ -22,29 +23,30 @@ export const NavBar = () => {
                 <div id='rectIconos2' />
 
 
-     
-                <img src={imagenHome} id='imagenhome2'/>
-             
+                <Link to='/'>
+                    <img src={imagenHome} id='imagenhome2' />
+                </Link>
 
-                
-                <img src={imagenStore} id='imagenstore2' />
-               
-                
-                <img src={imagenFood} id='imagenfood2'/>
-              
+                <Link to='/Tiendas'>
+                    <img src={imagenStore} id='imagenstore2' />
+                </Link>
 
-                
-                <img src={imagenAsesoria} id='imagenasesoria2' />
-               
+                <Link to='/Comidas'>
+                    <img src={imagenFood} id='imagenfood2' />
+                </Link>
 
-                
-                <img src={imagenInfo} id='imageninfo2'  />
-             
+                <Link to='/Contacto'>
+                    <img src={imagenAsesoria} id='imagenasesoria2' />
+                </Link>
+
+                <Link to='/Informacion'>
+                    <img src={imagenInfo} id='imageninfo2' />
+                </Link>
 
 
             </div>
 
-         
+
         </>
     )
 

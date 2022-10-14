@@ -49,10 +49,14 @@ export const Login = () => {
     return (<>
         <div id="Menu_login">
             <div id="login">
-                <h3>Inicia sesión</h3>
+                <h3 id='iniciaSESIONTEXTO'>INICIA SESIÓN</h3>
+
+                <h4 id='CorreoElectronicoTEXTO'>Correo Electrónico:</h4>
                 <input ref={refCorreo} id="email" placeholder="Email" type={"email"} />
-                <input ref={refPassword} id="password" placeholder="Password" />
-                <button id="iniciar" onClick={login}><span id="textLogin">Inicia sesión</span></button>
+
+                <h4 id='ContrasenaTEXTO'>Contraseña:</h4>
+                <input ref={refPassword} id="password2" placeholder="Password" />
+                <button id="iniciar2" onClick={login}><span id="textLogin">INICIAR SESIÓN</span></button>
             </div>
 
             <div>

@@ -3,6 +3,7 @@ import imagenFlecha from './img/arrow.svg'
 import imagenPersona from './img/persona.jpg'
 import imagenCarrito from './img/carrito.svg'
 import imagenLupa from './img/lupa.svg'
+import { Link } from 'react-router-dom'
 export const NavBarUp = ()=> {
 
 
@@ -10,10 +11,12 @@ export const NavBarUp = ()=> {
         <>
         <div id="fondoUP">
 
-            
-            <p id='textoNombre'>Inicar sesión</p>
+            <Link to='/Login'>
+            <p id='textoNombre'>Iniciar sesión</p>
+            </Link>
+            <Link to='/Carrito'>
             <img src={imagenCarrito} id='imagenCarrito' />
-            
+            </Link>
         </div>
         
         </>

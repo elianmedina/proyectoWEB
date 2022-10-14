@@ -221,6 +221,39 @@ border-radius: 25px;
     color: #000;
 }
 
+#textoRegistro{
+    position: absolute;
+width: 469px;
+height: 37px;
+left: 754px;
+top: 850px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 37px;
+
+color: #FFFFFF;
+
+}
+
+#registreseAquiTEXTO{
+    position: absolute;
+width: 469px;
+height: 37px;
+left: 1030px;
+top: 850px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 37px;
+
+color: #5B7FFF;
+
+}
 
 
 

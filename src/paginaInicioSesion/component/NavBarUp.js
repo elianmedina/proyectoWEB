@@ -3,22 +3,24 @@ import imagenFlecha from './img/arrow.svg'
 import imagenPersona from './img/persona.jpg'
 import imagenCarrito from './img/carrito.svg'
 import imagenLupa from './img/lupa.svg'
-export const NavBarUp = ()=> {
+import { Link } from 'react-router-dom'
+export const NavBarUp = () => {
 
 
-    return(
+    return (
         <>
-        <div id="fondoUP">
-            
-            <img src={imagenLupa} id='imagenXD' />
-            <input id="barrabusqueda"type="text" placeholder="Buscar comida..."/>
-        
-            <img src={imagenCarrito} id='imagenCarrito' />
-            
-            <p id='textoNombre'>Inicar sesión</p>
-         
-        </div>
-        
+            <div id="fondoUP">
+
+
+                <Link to='/Carrito'>
+                    <img src={imagenCarrito} id='imagenCarrito' />
+                </Link>
+
+                <Link to='/Login'>
+                    <p id='textoNombre'>Iniciar sesión</p>
+                </Link>
+            </div>
+
         </>
     )
 }

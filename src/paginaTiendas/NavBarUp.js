@@ -2,6 +2,7 @@ import './NavBarUp.css'
 
             import imagenCarrito from './img/carrito.svg'
 import imagenLupa from './img/lupa.svg'
+import { Link } from 'react-router-dom'
 export const NavBarUp = ()=> {
 
 
@@ -12,11 +13,13 @@ export const NavBarUp = ()=> {
             <img src={imagenLupa} id='imagenXD' />
             <input id="barrabusqueda"type="text" placeholder="Buscar tienda..."/>
             
-            
+            <Link to='/Carrito'>
             <img src={imagenCarrito} id='imagenCarrito' />
-            
-            <p id='textoNombre'>Inicar sesión</p>
-         
+            </Link>
+
+            <Link to='/Login'>
+            <p id='textoNombre'>Iniciar sesión</p>
+            </Link>
         </div>
         
         </>

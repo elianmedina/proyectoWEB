@@ -5,6 +5,7 @@ import imagenMapa from './img/map.svg'
 import imagenComida1 from './img/MCBURGERCHEESE.jpg'
 import imagenComida2 from './img/coca.jpg'
 import imagenComida3 from './img/FKCCOMBO.png'
+import { Link } from 'react-router-dom'
 
 export const Hamburguesa3D = () => {
 
@@ -16,8 +17,11 @@ export const Hamburguesa3D = () => {
             <div id='fondoPrincipal'>
                 
                 <h1 id='textoAclarador'>ARMA TU HAMBURGUESA</h1>
+                
+                <Link to='/Comidas'>
                 <button id="botonatrasespacio3D" name="button">Atrás</button>
-
+                </Link>
+                
                 <div id="espacio3D"></div>
                 
                 

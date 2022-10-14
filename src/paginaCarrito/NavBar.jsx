@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter,Link,Navigate,NavLink,Route,Routes } from 'react-router-dom'
+import { BrowserRouter, Link, Navigate, NavLink, Route, Routes } from 'react-router-dom'
 import './NavBar.css'
 import imagenHome from './img/home.svg'
 import imagenStore from './img/store.svg'
@@ -24,47 +24,47 @@ export const NavBar = () => {
     //HOLA
 
 
-    
+
 
     return (
         <>
 
             <div id="fondo">
-                
 
 
-                <img src={imagenHome} id='imagenhome222'/>
-      
+                <Link to='/'>
+                    <img src={imagenHome} id='imagenhome222' />
+                </Link>
 
 
-            
-                <img src={imagenStore} id='imagenstore222' />
-             
-                
-               
-             
-                <img src={imagenFood} id='imagenfood222'/>
-             
-                
-              
+                <Link to='/Tiendas'>
+                    <img src={imagenStore} id='imagenstore222' />
+                </Link>
 
-                
-                 <img src={imagenAsesoria} id='imagenasesoria222' />
-             
-               
-               
 
-                
-                 <img src={imagenInfo} id='imageninfo2'  />
-            
-               
-             
-                
+                <Link to='/Comidas'>
+                <img src={imagenFood} id='imagenfood222' />
+                </Link>
+
+
+
+                <Link to='/Contacto'>
+                <img src={imagenAsesoria} id='imagenasesoria222' />
+                </Link>
+
+
+
+                <Link to='/Informacion'>
+                <img src={imagenInfo} id='imageninfo2' />
+                </Link>
+
+
+
 
             </div>
 
-          
-             
+
+
         </>
     );
 
