@@ -21,31 +21,31 @@ export const NavBar = () => {
             <div id="fondo">
                 
 
-
+<Link to ='/'>
                 <img src={imagenHome} id='imagenhome222'/>
-      
+                </Link>
 
 
-            
+            <Link to='/Tiendas'>
                 <img src={imagenStore} id='imagenstore222' />
-             
+                </Link>
                 
                
-             
+             <Link to='/Comidas'>
                 <img src={imagenFood} id='imagenfood222'/>
-             
+                </Link>
                 
               
 
-                
+                <Link to='/Contacto'>
                  <img src={imagenAsesoria} id='imagenasesoria222' />
              
-               
+                 </Link>
                
 
-                
+                <Link to='/Informacion'>
                  <img src={imagenInfo} id='imageninfo2'  />
-            
+                 </Link>
                
              
                 

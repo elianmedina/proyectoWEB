@@ -77,6 +77,11 @@ top: 600px;
     background: #BDBDBD;
 border-radius: 30px;
 cursor: pointer;
+transition: filter 0.2s linear 0.1s;
+}
+
+#iniciar2:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
 }
 
 #textLogin{

@@ -55,7 +55,7 @@ export const Login = () => {
                 <input ref={refCorreo} id="email" placeholder="Email" type={"email"} />
 
                 <h4 id='ContrasenaTEXTO'>Contraseña:</h4>
-                <input ref={refPassword} id="password2" placeholder="Password" />
+                <input ref={refPassword} id="password2" placeholder="Contraseña" />
                 <button id="iniciar2" onClick={login}><span id="textLogin">INICIAR SESIÓN</span></button>
             </div>
 

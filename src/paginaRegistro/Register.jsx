@@ -36,11 +36,17 @@ export const Register = ()=>{
     
     return(<>
         <div>
-            <div id="register">
-                <h3>Registro</h3>
-                <input placeholder="Email" id="email" ref={refCorreo}/>
-                <input id="password" placeholder="Contraseña" ref={refPassword}/>
-                <button id="iniciar" onClick={register}><span id="textRegister">Registrarse</span></button>
+            <div id="login">
+                <h3 id='iniciaSESIONTEXTO'>REGÍSTRATE</h3>
+                <h4 id='nombreCompletoTEXTO'>Nombre Completo:</h4>
+                <input placeholder="Nombre completo" id="nombre" /> {/* ASIGNARLE UNA REFnombre*/}
+
+                <h4 id='correoElectronicoTEXTO'>Correo electrónico:</h4>
+                <input placeholder="Email" id="email3" ref={refCorreo}/>
+
+                <h4 id='CONTRASEnaTTEXTO'>Contraseña:</h4>
+                <input id="password3" placeholder="Contraseña" ref={refPassword}/>
+                <button id="iniciar3" onClick={register}><span id="textRegister">REGISTRARME</span></button>
             </div>
             <div>
                 {/* Log out/Cerrar sesioon */}
