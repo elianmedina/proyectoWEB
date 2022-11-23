@@ -1,13 +1,21 @@
 import './Hamburguesa3D.css'
 import { NavBar } from './NavBar'
 import { NavBarUp } from './NavBarUp'
+import { Render3D } from './Render3D'
 import imagenMapa from './img/map.svg'
 import imagenComida1 from './img/MCBURGERCHEESE.jpg'
 import imagenComida2 from './img/coca.jpg'
 import imagenComida3 from './img/FKCCOMBO.png'
 import { Link } from 'react-router-dom'
+import React from 'react'
+
+
 
 export const Hamburguesa3D = () => {
+    
+    
+
+
 
   
 
@@ -22,7 +30,10 @@ export const Hamburguesa3D = () => {
                 <button id="botonatrasespacio3D" name="button">Atrás</button>
                 </Link>
                 
-                <div id="espacio3D"></div>
+                <div id="espacio3D">
+                    <Render3D/>
+                
+                </div>
                 
                 
                 <select id="comboboxRestaurante"name="select1">
@@ -36,16 +47,7 @@ export const Hamburguesa3D = () => {
             </div>
             
          
-                <div id="separacionbotonhamburguesa3d"></div>
-                <button id="botonhamburguesa3d" name="button">HACER PEDIDO</button>
                 
-                <div id="card1"></div>
-                <div id="card2"></div>
-                <div id="card3"></div>
-                <div id="card4"></div>
-                <div id="card5"></div>
-                <div id="card6"></div>
-
             <NavBarUp />
             <NavBar />
 
