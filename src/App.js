@@ -14,27 +14,25 @@ import { Carrito } from './paginaCarrito/Carrito';
 import { LoginUnido } from './paginaInicioSesion/component/LoginUnido';
 import { RegistroUnido } from './paginaRegistro/RegistroUnido';
 import { Routes,Route} from 'react-router-dom';
-import { useState } from 'react';
 //daniel
 
 export const App = () => {
-  const [user, setLoginUser] = useState({})
+  
   return (
    <>
    <Routes>
-    
     <Route exact path='/' element={<Principal/>}></Route>
-    <Route exact path='/Tiendas' element={user && user._id?<Tiendas/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
-    <Route exact path='/Comidas' element={user && user._id?<Comidas/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
+    <Route exact path='/Tiendas' element={<Tiendas/>}></Route>
+    <Route exact path='/Comidas' element={<Comidas/>}></Route>
     <Route exact path='/Hamburguesa3D' element={<Hamburguesa3D/>}></Route>
-    <Route exact path='/Contacto' element={user && user._id?<Contacto/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
+    <Route exact path='/Contacto' element={<Contacto/>}></Route>
     <Route exact path='/Chat' element={<Chat/>}></Route>
-    <Route exact path='/Informacion' element={user && user._id?<Informacion/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
+    <Route exact path='/Informacion' element={<Informacion/>}></Route>
     <Route exact path='/Primer-paso-ticket' element={<PrimerPaso/>}></Route>
     <Route exact path='/Segundo-paso-ticket' element={<SegundoPaso/>}></Route>
     <Route exact path='/Menu' element={<Menu/>}></Route>
-    <Route exact path='/Carrito' element={user && user._id?<Carrito/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
-    <Route exact path='/Login' element={<LoginUnido setLoginUser={setLoginUser}/>}></Route>
+    <Route exact path='/Carrito' element={<Carrito/>}></Route>
+    <Route exact path='/Login' element={<LoginUnido/>}></Route>
     <Route exact path='/Registro' element={<RegistroUnido/>}></Route>
    </Routes>
    </>
