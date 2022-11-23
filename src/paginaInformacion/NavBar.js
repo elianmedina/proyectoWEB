@@ -39,9 +39,9 @@ export const NavBar = () => {
                 <img src={imagenAsesoria} id='imagenasesoria5' />
                 </Link>
 
-                <Link to='Informacion'>
+                
                 <img src={imagenInfo} id='imageninfo5' />
-                </Link>
+               
 
 
             </div>

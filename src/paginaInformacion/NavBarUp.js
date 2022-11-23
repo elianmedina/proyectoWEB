@@ -11,12 +11,23 @@ export const NavBarUp = ()=> {
         <>
         <div id="fondoUP">
 
+           
+            <img src={imagenCarrito} id='imagenCarrito' />
+            <h1 id='textoBienv'>Bienvenido a PanceEats</h1>
+            
+            
+            <p id='textoNombre'>Inicar sesión</p>
+            <img src={imagenCarrito} id='imagenCarrito' />
+          
+
+
             <Link to='/Login'>
             <p id='textoNombre'>Iniciar sesión</p>
             </Link>
             <Link to='/Carrito'>
             <img src={imagenCarrito} id='imagenCarrito' />
             </Link>
+
         </div>
         
         </>
