@@ -2,6 +2,7 @@ import './2ndoPaso.css'
 import { NavBar } from './NavBar'
 import { NavBarUp } from './NavBarUp'
 import imagenInfoChat1 from './img/mcdonald.png'
+import { Link } from 'react-router-dom'
 
 
 export const SegundoPaso = () => {
@@ -30,8 +31,9 @@ export const SegundoPaso = () => {
                 <span class='puntoSeleccionado' id='punto1ero'/>
                 <span  class='puntoSeleccionado'  id='punto2ndo'/>                 
 
+<Link to='/Informacion'>
                 <button id="botonFinalizar" name="button">FINALIZAR</button>
-              
+                </Link>
             </div>
             
            

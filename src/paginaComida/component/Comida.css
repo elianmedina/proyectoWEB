@@ -484,14 +484,14 @@ font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
     filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
 }
 
-#resultadoscomida{
+#resultadoscomidas{
     position: fixed;
     overflow-y: hidden;
     overflow-x: hidden;
     
     width: 583px;
     height: 30px;
-    left: 200px;
+    left: 00px;
     top: 780px;
     font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
     font-style: normal;

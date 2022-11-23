@@ -2,6 +2,7 @@ import './1erPaso.css'
 import { NavBar } from './NavBar'
 import { NavBarUp } from './NavBarUp'
 import imagenInfoChat1 from './img/mcdonald.png'
+import { Link } from 'react-router-dom'
 
 
 export const PrimerPaso = () => {
@@ -15,7 +16,7 @@ export const PrimerPaso = () => {
             
                 <h1 id='textoAclarador'>TICKET</h1>
               
-                <h1 id="cuentanos">Cuentanos...</h1>
+                <h1 id="cuentanos">Cuéntanos...</h1>
                 <h1 id="cuentanosS">Sobre tí</h1>
                 
                 <h1 id="nombreCom">Nombre completo:</h1>
@@ -30,8 +31,9 @@ export const PrimerPaso = () => {
                 <span class='puntoSeleccionado' id='punto1ero'/>
                 <span  class='puntoNOseleccionado'  id='punto2ndo'/>                 
 
+<Link to='/Segundo-paso-ticket'>
                 <button id="botonSiguiente" name="button">SIGUIENTE</button>
-              
+                </Link>
             </div>
             
            

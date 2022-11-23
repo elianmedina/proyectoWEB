@@ -1,0 +1,166 @@
+h3{
+    position: absolute;
+    width: 453px;
+    height: 65px;
+    left: 160px;
+    top: 100px;
+
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px -6px 7px rgba(0, 0, 0, 0.25);
+}
+#login{
+    position: absolute;
+    width: 744px;
+    height: 800px;
+    left: 617px;
+    top: 150px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: #FF8228;
+    box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+}
+
+#email{
+    
+    position: absolute;
+    width: 626px;
+    height: 68px;
+    left: 70px;
+    top: 279px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 17px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+
+}
+
+#password2{
+    position: absolute;
+    width: 626px;
+    height: 68px;
+    left: 70px;
+    top: 460px;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 17px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+}
+
+#iniciar2{
+    position: absolute;
+width: 428px;
+height: 78px;
+left: 170px;
+top: 600px;
+    background: #BDBDBD;
+border-radius: 30px;
+cursor: pointer;
+transition: filter 0.2s linear 0.1s;
+}
+
+#iniciar2:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+#textLogin{
+    position: absolute;
+left: 25.3%;
+right: 24.07%;
+top: 23.08%;
+bottom: 23.08%;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+#iniciaSESIONTEXTO{
+    
+position: absolute;
+
+top: -10px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 92px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px -6px 7px rgba(0, 0, 0, 0.25);
+}
+
+#CorreoElectronicoTEXTO{
+    position: absolute;
+width: 453px;
+height: 65px;
+left: 160px;
+top: 140px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 65px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px -6px 7px rgba(0, 0, 0, 0.25);
+}
+
+#ContrasenaTEXTO{
+    position: absolute;
+width: 453px;
+height: 65px;
+left: 160px;
+top: 324px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 65px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px -6px 7px rgba(0, 0, 0, 0.25);
+}

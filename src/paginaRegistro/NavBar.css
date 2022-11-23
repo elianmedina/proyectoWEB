@@ -1,0 +1,143 @@
+#fondo {
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 131px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: -5px 2px 9px 6px rgba(0, 0, 0, 0.25);
+}
+
+#imagenhome222 {
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: 29px;
+    top: 39px;
+    cursor: pointer;
+    clip-path: inset(0 0 20% 0);
+    filter: invert(87%) sepia(7%) saturate(21%) hue-rotate(348deg) brightness(88%) contrast(84%);
+    transition: filter 0.2s linear 0.1s;
+}
+
+#imagenhome222:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+
+
+#imagenstore222 {
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: 29px;
+    top: 344px;
+    cursor: pointer;
+    filter: invert(87%) sepia(7%) saturate(21%) hue-rotate(348deg) brightness(88%) contrast(84%);
+    transition: filter 0.2s linear 0.1s;
+}
+
+#imagenstore222:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+
+
+#imagenfood222 {
+    position: absolute;
+    width: 73px;
+    height: 62px;
+    left: 29px;
+    top: 473px;
+    cursor: pointer;
+    clip-path: inset(0 0 20% 0);
+   
+    filter: invert(87%) sepia(7%) saturate(21%) hue-rotate(348deg) brightness(88%) contrast(84%);
+    transition: filter 0.2s linear 0.1s;
+}
+
+#imagenfood222:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+#imagenasesoria222 {
+    position: absolute;
+    width: 73px;
+    height: 61px;
+    left: 30px;
+    top: 784px;
+    cursor: pointer;
+    clip-path: inset(0 0 20% 0);
+    filter: invert(87%) sepia(7%) saturate(21%) hue-rotate(348deg) brightness(88%) contrast(84%);
+    transition: filter 0.2s linear 0.1s;
+}
+
+#imagenasesoria222:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+#imageninfo222 {
+    position: absolute;
+    width: 73px;
+    height: 60px;
+    left: 30px;
+    top: 892px;
+    cursor: pointer;
+    transition: filter 0.2s linear 0.1s;
+    filter: invert(87%) sepia(7%) saturate(21%) hue-rotate(348deg) brightness(88%) contrast(84%);
+}
+
+#imageninfo222:hover{
+    filter: invert(89%) sepia(2%) saturate(511%) hue-rotate(223deg) brightness(118%) contrast(76%);
+}
+
+#barrita {
+
+    position: absolute;
+    width: 6px;
+    height: 48px;
+    left: -2px;
+    top: 45px;
+    border-radius: 10px;
+    filter: invert(57%) sepia(57%) saturate(2531%) hue-rotate(342deg) brightness(108%) contrast(101%);
+
+}
+
+#rectIconos2 {
+    
+    position: absolute;
+    width: 27px;
+    height: 48px;
+    left: -12px;
+    top: 475px;
+    
+    background: #FF8228;
+    border-radius: 10px;
+    
+}
+
+.botonMenu{
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    
+    border-radius: 5px;
+}
+
+
+.itemSeleccionado{
+    filter: invert(57%) sepia(57%) saturate(2531%) hue-rotate(342deg) brightness(108%) contrast(101%);
+}
+
+.itemNoSeleccionado{
+    filter: invert(87%) sepia(7%) saturate(21%) hue-rotate(348deg) brightness(88%) contrast(84%);
+}

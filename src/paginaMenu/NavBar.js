@@ -6,7 +6,8 @@ import imagenStore from './img/store.svg'
 import imagenFood from './img/food.svg'
 import imagenAsesoria from './img/asesoria.svg'
 import imagenInfo from './img/info.svg'
-import { Menu } from './Menu'
+
+import { Link } from 'react-router-dom'
 
 
 export const NavBar = () => {
@@ -19,27 +20,28 @@ export const NavBar = () => {
         <>
 
             <div id="fondo">
-                <div id='rectIconos2' />
+                <div id='rectIconos1' />
 
 
-     
-                <img src={imagenHome} id='imagenhome2'/>
-             
+     <Link to='/'>
+                <img src={imagenHome} id='imagenhome1'/>
+                </Link>
 
+                <Link to='/Tiendas'>
+                <img src={imagenStore} id='imagenstore1'/>
+                </Link>
                 
-                <img src={imagenStore} id='imagenstore2' />
-               
-                
-                <img src={imagenFood} id='imagenfood2'/>
-              
+                <Link to='/Comidas'>
+                <img src={imagenFood} id='imagenfood1' />
+                </Link>
 
-                
-                <img src={imagenAsesoria} id='imagenasesoria2' />
-               
+                <Link to='/Contacto'>
+                <img src={imagenAsesoria} id='imagenasesoria1' />
+                </Link>
 
-                
-                <img src={imagenInfo} id='imageninfo2'  />
-             
+                <Link to='/Informacion'>
+                <img src={imagenInfo} id='imageninfo1' />
+                </Link>
 
 
             </div>

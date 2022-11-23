@@ -2,7 +2,7 @@ import './NavBarUp.css'
 import imagenFlecha from './img/arrow.svg'
 import imagenPersona from './img/persona.jpg'
 import imagenCarrito from './img/carrito.svg'
-
+import { Link } from 'react-router-dom'
 export const NavBarUp = ()=> {
 
 
@@ -10,13 +10,15 @@ export const NavBarUp = ()=> {
         <>
         <div id="fondoUP">
            
+            <Link to='/Carrito'>
             <img src={imagenCarrito} id='imagenCarrito' />
+            </Link>
             <h1 id='textoBienv'>Bienvenido a PanceEats</h1>
             
-            
-            <p id='textoNombre'>Inicar sesión</p>
+            <Link to='/Login'>
+            <p id='textoNombre'>Iniciar sesión</p>
             <img src={imagenCarrito} id='imagenCarrito' />
-          
+            </Link>
         </div>
         
         </>
