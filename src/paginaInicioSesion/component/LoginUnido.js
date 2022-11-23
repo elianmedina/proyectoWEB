@@ -7,7 +7,8 @@ import imagenComida2 from './img/coca.jpg'
 import imagenComida3 from './img/sprite.jpg'
 import { Login } from './Login'
 import { Link } from 'react-router-dom'
-export const LoginUnido = () => {
+
+export const LoginUnido = ({ setLoginUser }) => {
 
 
     return (
@@ -18,7 +19,7 @@ export const LoginUnido = () => {
                 <h1 id='textoAclarador'>LOGIN</h1>
 
 
-                <Login />
+                <Login  setLoginUser={setLoginUser}/>
                 <p id='textoRegistro'>¿Nuev@ en PanceEats?</p>
                 <Link to='/Registro'>
                     <p id='registreseAquiTEXTO'>Crea una cuenta</p>
