@@ -10,7 +10,7 @@ export const NavBarUp = ()=> {
     return(
         <>
         <div id="fondoUP">
-<<<<<<<< HEAD:src/paginaPrincipal/component/NavBarUp.js
+
            
             <img src={imagenCarrito} id='imagenCarrito' />
             <h1 id='textoBienv'>Bienvenido a PanceEats</h1>
@@ -19,7 +19,7 @@ export const NavBarUp = ()=> {
             <p id='textoNombre'>Inicar sesión</p>
             <img src={imagenCarrito} id='imagenCarrito' />
           
-========
+
 
             <Link to='/Login'>
             <p id='textoNombre'>Iniciar sesión</p>
@@ -27,7 +27,7 @@ export const NavBarUp = ()=> {
             <Link to='/Carrito'>
             <img src={imagenCarrito} id='imagenCarrito' />
             </Link>
->>>>>>>> main:src/paginaInformacion/NavBarUp.js
+
         </div>
         
         </>
