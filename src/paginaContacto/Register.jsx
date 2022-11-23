@@ -44,7 +44,8 @@ export const Register = ()=>{
             </div>
             <div>
                 {/* Log out/Cerrar sesioon */}
-                {user.email}
+                {user
+                .email}
                 <button  onClick={logOut}>Log Out</button>
             </div>
             
