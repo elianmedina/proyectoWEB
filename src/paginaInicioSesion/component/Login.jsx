@@ -29,6 +29,7 @@ const [user , setUser] = useState({
 
     
    }
+    const [userName, setUserName] = useState("")
 
    const login = () =>{
     axios.post("http://localhost:9001/Login", user)
@@ -36,8 +37,14 @@ const [user , setUser] = useState({
         alert(res.data.message)  
         setLoginUser(res.data.user)   
         navigate("/")
+        setUserName(res.data.user.name)
+        console.log(res.data.user.name)
+        
     })
   
+    
+   
+    
 }
     return (<>
         <div id="Menu_login">

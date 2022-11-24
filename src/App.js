@@ -23,16 +23,16 @@ export const App = () => {
    <>
    <Routes>
     
-    <Route exact path='/' element={<Principal/>}></Route>
-    <Route exact path='/Tiendas' element={user && user._id?<Tiendas/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
-    <Route exact path='/Comidas' element={user && user._id?<Comidas/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
-    <Route exact path='/Hamburguesa3D' element={<Hamburguesa3D/>}></Route>
-    <Route exact path='/Contacto' element={user && user._id?<Contacto/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
-    <Route exact path='/Chat' element={<Chat/>}></Route>
-    <Route exact path='/Informacion' element={user && user._id?<Informacion/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
-    <Route exact path='/Primer-paso-ticket' element={<PrimerPaso/>}></Route>
+    <Route exact path='/' element={<Principal user={user}/>}></Route>
+    <Route exact path='/Tiendas' element={<Tiendas/>}></Route>
+    <Route exact path='/Comidas' element={<Comidas/>}></Route>
+    <Route exact path='/Hamburguesa3D' element={user && user._id?<Hamburguesa3D/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
+    <Route exact path='/Contacto' element={<Contacto/>}></Route>
+    <Route exact path='/Chat' element={user && user._id?<Chat/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
+    <Route exact path='/Informacion' element={<Informacion/>}></Route>
+    <Route exact path='/Primer-paso-ticket' element={user && user._id?<PrimerPaso/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
     <Route exact path='/Segundo-paso-ticket' element={<SegundoPaso/>}></Route>
-    <Route exact path='/Menu' element={<Menu/>}></Route>
+    <Route exact path='/Menu' element={user && user._id?<Menu/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
     <Route exact path='/Carrito' element={user && user._id?<Carrito/>:<LoginUnido setLoginUser={setLoginUser}/>}></Route>
     <Route exact path='/Login' element={<LoginUnido setLoginUser={setLoginUser}/>}></Route>
     <Route exact path='/Registro' element={<RegistroUnido/>}></Route>

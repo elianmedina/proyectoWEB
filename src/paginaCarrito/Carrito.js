@@ -12,7 +12,7 @@ export const Carrito = () => {
 
     var numeroUnidadesItem1 = 1;
     var numeroUnidadesItem2 = 1;
-    var numeroUnidadesItem3 =1;
+    var numeroUnidadesItem3 = 1;
     return (
         <>
 

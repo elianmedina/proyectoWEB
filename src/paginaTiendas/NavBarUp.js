@@ -3,6 +3,7 @@ import './NavBarUp.css'
             import imagenCarrito from './img/carrito.svg'
 import imagenLupa from './img/lupa.svg'
 import { Link } from 'react-router-dom'
+import { CajonPerfil } from '../perfil/perfilInformacion'
 export const NavBarUp = ()=> {
 
 
@@ -17,9 +18,7 @@ export const NavBarUp = ()=> {
             <img src={imagenCarrito} id='imagenCarrito' />
             </Link>
 
-            <Link to='/Login'>
-            <p id='textoNombre'>Iniciar sesión</p>
-            </Link>
+            <CajonPerfil/>
         </div>
         
         </>
