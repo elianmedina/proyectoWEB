@@ -149,28 +149,62 @@ box-shadow: inset 0px 0px 61px 10px rgba(0, 0, 0, 0.25);
     background: #FFFFFF;
     border-radius: 25px;
 }
-#card2{
+#card1:hover{
     position: fixed;
     overflow-y: hidden;
     overflow-x: hidden;
     width: 94px;
+    height: 87px;
+    left: 155px;
+    top: 750px;
+
+    background: #FF8228;
+    border-radius: 25px;
+}
+#card2{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 120px;
     height: 87px;
     left: 314px;
     top: 750px;
 
     background: #FFFFFF;
     border-radius: 25px;
+}#card2:hover{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 120px;
+    height: 87px;
+    left: 314px;
+    top: 750px;
+
+    background: #FF8228;
+    border-radius: 25px;
 }
 #card3{
     position: fixed;
     overflow-y: hidden;
     overflow-x: hidden;
-    width: 94px;
+    width: 135px;
     height: 87px;
-    left: 473px;
+    left: 500px;
     top: 750px;
 
     background: #FFFFFF;
+    border-radius: 25px;
+}#card3:hover{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 135px;
+    height: 87px;
+    left: 500px;
+    top: 750px;
+
+    background: #FF8228;
     border-radius: 25px;
 }
 #card4{
@@ -179,10 +213,22 @@ box-shadow: inset 0px 0px 61px 10px rgba(0, 0, 0, 0.25);
     overflow-x: hidden;
     width: 94px;
     height: 87px;
-    left: 632px;
+    left: 680px;
     top: 750px;
 
     background: #FFFFFF;
+    border-radius: 25px;
+}
+#card4:hover{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 94px;
+    height: 87px;
+    left: 680px;
+    top: 750px;
+
+    background: #FF8228;
     border-radius: 25px;
 }
 #card5{
@@ -197,15 +243,39 @@ box-shadow: inset 0px 0px 61px 10px rgba(0, 0, 0, 0.25);
     background: #FFFFFF;
     border-radius: 25px;
 }
-#card6{
+#card5:hover{
     position: fixed;
     overflow-y: hidden;
     overflow-x: hidden;
     width: 94px;
     height: 87px;
+    left: 791px;
+    top: 750px;
+
+    background: #FF8228;
+    border-radius: 25px;
+}
+#card6{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 130px;
+    height: 87px;
     left: 950px;
     top: 750px;
 
     background: #FFFFFF;
+    border-radius: 25px;
+}
+#card6:hover{
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 130px;
+    height: 87px;
+    left: 950px;
+    top: 750px;
+
+    background: #FF8228;
     border-radius: 25px;
 }
