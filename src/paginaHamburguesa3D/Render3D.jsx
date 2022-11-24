@@ -152,7 +152,7 @@ export const Render3D = () =>{
 
         
         
-        if (hamburguesa[elemento] < 3 && hamburguesa.TopBread < 1){
+        if (hamburguesa[elemento] < 1 && hamburguesa.TopBread < 1){
             hamburguesa[elemento] +=1
             var path = './modelos3D/'+elemento+'.gltf'
 
@@ -293,12 +293,13 @@ export const Render3D = () =>{
     })
 
     const eliminar = () =>{
-        hamburguesa[ingrediente] -= 1
+        const h = new hamburguesa(0,0,0,0,0,1)
+        setHamburguesa(h)
+        while(scene.children.length > 3){ 
+            scene.remove(scene.children[0]); 
+        }
     }
 
-    const addModel = () =>{
-        
-    }
 
     return (
         <>
@@ -314,7 +315,7 @@ export const Render3D = () =>{
         <button id="card3" onClick={()=>addElement("Veg")}><h1>Vegetales</h1></button>
         <button id="card4" onClick={()=>addElement("Cheese")}><h1>Queso</h1></button>
         <button id="card5" onClick={()=>addElement("TopBread")}><h1>Pan</h1></button>
-        <button id="card6" onClick={()=>addModel()}><h1>Eliminar</h1></button>
+        <button id="card6" onClick={()=>eliminar()}><h1>Eliminar</h1></button>
         </>
 
     )

@@ -16,6 +16,13 @@ mongoose.connect("mongodb+srv://admin:Adaly132-@cluster0.r2msmgy.mongodb.net/", 
     console.log("DB connected")
 })
 
+const cartSchema = new mongoose.Schema({
+    user: String,
+    totalProducts: String,
+    products: Array,
+    total: String
+})
+
 const userSchema =new mongoose.Schema({
     name: String,
     email: String,
@@ -23,6 +30,8 @@ const userSchema =new mongoose.Schema({
 })
 
 const User = new mongoose.model("User", userSchema)
+
+const Cart = new mongoose.model("Cart", cartSchema)
 
 //Routes
 

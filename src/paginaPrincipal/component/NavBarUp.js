@@ -1,4 +1,5 @@
 import './NavBarUp.css'
+import {Cart} from "../../cart/Cart"
 import imagenFlecha from './img/arrow.svg'
 import imagenPersona from './img/persona.jpg'
 import imagenCarrito from './img/carrito.svg'
@@ -17,8 +18,9 @@ export const NavBarUp = ()=> {
             
             <Link to='/Login'>
             <p id='textoNombre'>Iniciar sesión</p>
-            <img src={imagenCarrito} id='imagenCarrito' />
+            {/* <img src={imagenCarrito} id='imagenCarrito' /> */}
             </Link>
+            <Cart/>
         </div>
         
         </>
