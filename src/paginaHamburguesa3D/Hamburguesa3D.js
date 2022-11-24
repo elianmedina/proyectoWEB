@@ -1,7 +1,7 @@
 import './Hamburguesa3D.css'
 import { NavBar } from './NavBar'
 import { NavBarUp } from './NavBarUp'
-import { Render3D } from './Render3D'
+import {Render3D} from './Render3D'
 import imagenMapa from './img/map.svg'
 import imagenComida1 from './img/MCBURGERCHEESE.jpg'
 import imagenComida2 from './img/coca.jpg'
@@ -46,8 +46,6 @@ export const Hamburguesa3D = () => {
                 
             </div>
             
-         
-                
             <NavBarUp />
             <NavBar />
 
