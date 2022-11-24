@@ -20,7 +20,7 @@ export const NavBarUp = ()=> {
             <p id='textoNombre'>Iniciar sesión</p>
             {/* <img src={imagenCarrito} id='imagenCarrito' /> */}
             </Link>
-            <Cart/>
+           
         </div>
         
         </>
