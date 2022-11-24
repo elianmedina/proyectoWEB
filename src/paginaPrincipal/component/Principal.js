@@ -7,7 +7,7 @@ import imagenCarrusel3 from './img/PRMOCAO3.jpg'
 import videoFuego from './video/fuego.mp4'
 import imagenFlecha from './img/arrow.svg'
 
-export const Principal = () => {
+export const Principal = (user) => {
 
 
     return (
@@ -32,7 +32,7 @@ export const Principal = () => {
 
             </div>
 
-            <NavBarUp />
+            <NavBarUp user={user} />
             <NavBar />
 
         </>

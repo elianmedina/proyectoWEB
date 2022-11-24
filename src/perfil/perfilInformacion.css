@@ -1,0 +1,15 @@
+#cajonNombre{
+    position: absolute;
+width: 187px;
+height: 34px;
+left: 1700px;
+top: 10px;
+
+font-family: 'Trebuchet MS','Franklin Gothic Medium',Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 39px;
+
+color: #BABABA;
+}
